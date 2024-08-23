@@ -1,0 +1,61 @@
+body {
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.custom-shadow {
+    box-shadow: 5px 5px 25px 19px #000000;
+}
+
+.product_id {
+    color: gray;
+    font-size: 15px;
+}
+
+.badge.bg-warning.text-dark {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    z-index: 1;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 1rem;
+    box-shadow: 2px 2px 15px 9px #000000;
+}
+
+.badge-banner {
+    top: 80%;
+    border-radius: 15px;
+    font-size: 0.7rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 310px; 
+    object-fit: contain; /* Сохранение пропорций и заполнение заданной области */
+    border: 1px solid #6563ff;
+}
+
+.card-body {
+    width: 100%;
+    height: 250px; 
+}
+
+.card-title {
+    height: 60px;
+}
+
