@@ -43,6 +43,8 @@ INSTALLED_APPS = [
 
     'debug_toolbar',
     'django_extensions',
+    'drf_yasg',
+
 
     'main',
     'goods',
